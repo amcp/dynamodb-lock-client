@@ -19,7 +19,7 @@
         <dynamodb-local.endpoint>http://localhost:${dynamodb-local.port}</dynamodb-local.endpoint>
         <jdk.version>1.8</jdk.version>
 
-        <maven.source.plugin.version></maven.source.plugin.version>
+        <maven.source.plugin.version/>
 
         <aws.java.sdk.version>1.11.475</aws.java.sdk.version>
         <dependency.plugin.version>3.1.1</dependency.plugin.version>
@@ -100,7 +100,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore</artifactId>
-            <version>4.4.9</version>
+            <version>4.4.14</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -288,7 +288,7 @@
                         <configuration>
                             <dataFile>${jacoco-aggregate-destFile}</dataFile>
                             <rules>
-                                <rule >
+                                <rule>
                                     <element>CLASS</element>
                                     <limits>
                                         <limit>
